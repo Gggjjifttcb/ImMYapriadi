@@ -6,6 +6,8 @@
     <title>@yield('title', config('app.name', 'ImMYapriadi'))</title>
     <meta name="description" content="Website sederhana dengan frontsite, login admin, dan CRUD berita.">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <!-- Test CSS to verify Vercel static serving -->
+    <link rel="stylesheet" href="{{ asset('css/test.css') }}">
 </head>
 <body class="site-body">
     <div class="site-bg"></div>
